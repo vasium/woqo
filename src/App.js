@@ -2942,7 +2942,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p className="copyright-text">
-                  Vasilis Zotikas (woqomoqo) 2020. All rights reserved
+                  Vasilis Zotikas (woqomoqo) 2021. All rights reserved
                 </p>
               </div>
             </div>
