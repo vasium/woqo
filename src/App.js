@@ -54,6 +54,7 @@ import Isotope from "isotope-layout";
 import "odometer/odometer.js";
 
 window.jQuery = $;
+window.jquery = $;
 
 require("owl.carousel/dist/owl.carousel.js");
 require("jquery-scrolla/dist/js/jquery.scrolla.js");
@@ -147,6 +148,8 @@ function App() {
       $skillBar.each(function () {
         $progressBar.isInViewport(function (status) {
           if (status === "entered") {
+            console.log("view2");
+
             $(this)
               .find(".progress-content")
               .animate(
@@ -633,7 +636,7 @@ function App() {
         {/* Header */}
         <header className="site-header sticky-header">
           <div className="container-fluid pd-0">
-            <div className="row no-gutters" style={{ background: "#000" }}>
+            <div className="row no-gutters">
               <div className="col-xl-7">
                 <div className="header-left-block">
                   <div className="site-branding">
